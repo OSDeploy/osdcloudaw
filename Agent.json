@@ -1,0 +1,46 @@
+{
+  "zone": "https://david.liquit.com/",
+  "promptZone": "Disabled",
+  "registration": {
+    "type": "Certificate"
+  },
+  "deployment": {
+    "zoneTimeout": 60,
+    "enabled": false,
+    "start": false,
+    "context": "Device",
+    "cancel": false,
+    "triggers": false,
+    "autoStart": {
+      "enabled": true,
+      "deployment": "OSDCloud Live"
+    }
+  },
+  "log": {
+    "level": "Debug",
+    "rotateCount": 5,
+    "rotateSize": 1048576
+  },
+  "icon": {
+    "enabled": false,
+    "exit": false,
+    "timeout": 1
+  },
+  "login": {
+    "enabled": false,
+    "identitySource": "LOCAL",
+    "timeout": 15
+  },
+  "launcher": {
+    "state": "Default",
+    "close": true,
+    "start": "Disabled",
+    "contextMenu": true,
+    "minimal": true,
+    "enabled": true
+  },
+  "restrictZones": true,
+  "trustedZones": [
+    "david.liquit.com"
+  ]
+}
